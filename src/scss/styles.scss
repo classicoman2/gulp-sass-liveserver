@@ -1,0 +1,21 @@
+
+$theme-colors: (
+    "primary": #FF69B4
+);
+
+//Theming
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    #container {
+        background-color:red;
+        p {
+            color:grey;
+        }
+        &:hover {
+            background-color:yellow;
+        }
+    }
+}
